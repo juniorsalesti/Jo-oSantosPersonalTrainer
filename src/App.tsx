@@ -28,8 +28,8 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md border-b border-white/5">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-20 md:h-24 flex items-center justify-between">
-        <div className="h-12 md:h-16 flex items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-24 md:h-24 flex items-center justify-between relative">
+        <div className="h-20 md:h-16 flex items-center absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0">
           <img 
             src="https://i.ibb.co/cSq7sHGt/Sem-nome-60-x-90-px.png" 
             alt="João Santos Logo" 
@@ -402,7 +402,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 mb-12 md:mb-20">
           <div className="sm:col-span-2">
-            <div className="h-16 md:h-24 flex items-center mb-6 md:mb-8">
+            <div className="h-32 md:h-24 flex items-center justify-center md:justify-start mb-6 md:mb-8">
               <img 
                 src="https://i.ibb.co/cSq7sHGt/Sem-nome-60-x-90-px.png" 
                 alt="João Santos Logo" 
